@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource
+        name="jdbc/Munchkin" type="javax.sql.DataSource"
+        maxActive="100" maxIdle="30" maxWait="10000" 
+        url="jdbc:mysql://192.168.0.227:8457/Munchkin"
+        driverClassName="com.mysql.jdbc.Driver"
+        username="user" password="password"
+    />
+</Context>
